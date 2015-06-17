@@ -1,0 +1,60 @@
+.ico_e{
+    font-size: 30px;
+}
+#load_i_config, #contenido_paquetes{
+    text-align: center;
+}
+.edicion_i span{
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.ingrediente:hover{
+    background-color: red;
+}
+#ico_ingred{
+    font-size: 60px;
+    color: #FFFFFF;
+    
+}
+.paquetes_edicion{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin: 1%;
+}
+.paquetes_edicion span{
+    padding: 5px;
+    margin-right: 1%;
+}
+.paquetes_edicion{
+    color: black;
+}
+.paquetes_edicion input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.paquetes_edicion i{
+    font-family: sans-serif;
+}
+.guardar_p{
+    background-color: green;
+    color: #f0f0f0;
+    border: 0;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.eliminar_p{
+    background-color: red;
+    border-radius: 3px;
+    border: 0;
+    color: #f0f0f0;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}

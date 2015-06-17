@@ -1,0 +1,27 @@
+<html><head>
+<title>Sr. Pizza</title>
+<script type="text/javascript">
+        var NEW_LOC = "http://www.astalaweb.com/";        function goNow() {
+            document.location = NEW_LOC;
+        }
+
+        function printPage() {
+            if (confirm("¿Imprimir página?")) {
+                window.print();
+            }
+            // La redirección ocurre incluso cuando la página no se ha imprimido
+            // si quieres hacer la redirección sólo si la página se ha imprimido
+            // inserta la siguiente frase arriba 
+            goNow();
+        }
+    </script>
+</head>
+<body>
+
+    <p align="center"><b>Imprime y redirige<br>
+</b>
+<br><br><a href="javascript:printPage()">Pulsa click para imprimir esta página </a>
+<br>
+    <br> (Aparecerá antes un mensaje de confirmación, luego serás redirigido a: http://www.astalaweb.com)</p>
+
+</body></html>

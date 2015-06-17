@@ -1,0 +1,5 @@
+Precio por cada ingrediente?
+Precio de pizza chica, mediana y grande?
+Adicionales?
+Precio de los adicionales?
+Menu actualizado?
